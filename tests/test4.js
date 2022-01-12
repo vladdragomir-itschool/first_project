@@ -7,7 +7,7 @@ cy.visit('https://www.booking.com/index.ro.html?label=gen173nr-1DCAEoggI46AdIM1g
 cy.get('#onetrust-accept-btn-handler').click()
 
 //dam click pe 'Autentificati-va'
-cy.get(':nth-child(6) > .bui-button > .bui-button__text').click()
+cy.get(':nth-child(6) > .bui-button > .bui-button__text').click() //
 
 //declaram 2 constante pentru mail si parola
 const mail =Cypress.env("mail")
